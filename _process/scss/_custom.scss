@@ -1,0 +1,38 @@
+$headings-font-family: Asap;
+
+$primary: #00adb5;
+$secondary: #f8b500;
+$body-bg: #393e46;
+$text-muted: #6c757d;
+$body-color: $text-muted;
+$border-radius: 8px;
+
+$enable-responsive-font-sizes: true;
+$rfs-base-font-size: 1rem;
+
+$enable-rounded: true;
+$enable-shadows: true;
+
+$theme-colors: (
+  "special": #e01c55
+);
+
+$enable-caret: false;
+$enable-grid-classes: true;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$grid-gutter-width: 10px;
+
+$pagination-bg: $primary;
+$pagination-color: darken($primary, 20%);
+$pagination-border-color: darken($body-bg, 7%);
+
+$pagination-active-bg: $secondary;
+$pagination-active-bordr-color: darken($body-bg, 7%);

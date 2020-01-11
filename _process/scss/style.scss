@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Asap:400,700&display=swap");
+
+@import "./custom";
+// before bootstrap file to overide the default bootstrap variables
+// please check the _variables.scss file inside bootstrap to see all variable name
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "../../node_modules/animate.css/animate";
+@import "../prism/prism-xonokai";
+
+.h2,
+.h4 {
+  font-family: Asap;
+}
+
+.site-header {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site-nav.inbody {
+  background-color: rgb(11, 114, 155);
+}
+
+.layout-social {
+  font-size: 1.4em;
+}
